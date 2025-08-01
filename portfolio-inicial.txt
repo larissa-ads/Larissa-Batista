@@ -1,0 +1,63 @@
+# Portfolio Inicial
+
+Este é meu primeiro projeto em HTML e CSS, criado como parte do meu aprendizado no curso de Análise e Desenvolvimento de Sistemas.
+
+## 💡 Sobre o projeto
+
+Página simples de apresentação pessoal, com informações básicas como nome, bio, área de interesse e contato.
+
+## 🛠️ Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- VS Code
+
+## 📚 O que aprendi
+
+- Estrutura básica de um site
+- Uso de tags HTML
+- Estilização com CSS
+- Organização de arquivos no GitHub
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Larissa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Olá, eu sou a Larissa Caroliny 👋</h1>
+    <p>Estudante de Análise e Desenvolvimento de Sistemas.</p>
+    <p>Interessada em Análise de Sistemas e Segurança da Informação.</p>
+    <p>📫 Contato: <a href="mailto:larissacarol578@gmail.com">larissacarol578@gmail.com</a></p>
+  </div>
+</body>
+</html>
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
